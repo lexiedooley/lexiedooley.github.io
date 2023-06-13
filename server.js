@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 app.get('/home', function(req, res) {
     res.render('home');
 });
-
+    
 app.get('/students', function (req, res) {
     // console.log(res.locals.studentsNames);
     // res.send(res.locals.studentsNames);
